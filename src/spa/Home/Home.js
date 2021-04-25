@@ -2,9 +2,10 @@ import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './Home.css';
-AOS.init();
+
 
 export default function Home() {
+	AOS.init();
 	
   return (
 
