@@ -18,7 +18,7 @@ function Navbr() {
                <div className="project">
 
                  
-                   <Link to="/">Logo</Link>
+                   <div className="logo"></div>
                 </div>
                
                

@@ -151,7 +151,7 @@ width: 50%;margin: auto;
 
 
 .footer{
-	height: 30vh;
+	height: 15vh;
 	width: 100%;
 	background-color: black;
 	
@@ -229,7 +229,7 @@ width: 100%;
 	width: 90%;
 }
 .in-about .heading3 h1{text-align: center;font-family: 'Brygada',sans-serif;font-weight: 100;word-spacing: 5px;line-height: 15px;
-	font-size: 10px;width: 80%;margin: auto;
+	font-size: 10px;width: 80%;margin: auto;font-weight: 900;
 }
 
 
@@ -307,7 +307,7 @@ width: 100%;
 	width:100%;
 }
 .in-founder .heading3 h1{text-align: center;font-family: 'Brygada',sans-serif;font-weight: 100;word-spacing: 5px;line-height: 14px;
-	font-size: 10px;
+	font-size: 10px;font-weight: 900;
 }
 
 

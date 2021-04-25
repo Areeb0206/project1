@@ -32,7 +32,10 @@ a{
 }
 
 
-
+.logo{
+	background-image: url(../images/logo.svg);
+	height: 50px;width: 60px;background-size: contain;background-repeat: no-repeat;
+}
 @media(max-width: 425px){
 
 
@@ -69,5 +72,10 @@ a{
 }
 
 
+
+.logo{
+	background-image: url(../images/logo.svg);
+	height: 20px;width: 20px;background-size: contain;background-repeat: no-repeat;padding: 0px;
+}
 
 }
