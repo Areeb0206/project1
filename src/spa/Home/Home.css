@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&family=Poppins:wght@100&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.triangle{
+height: 90vh;width: 100%;background-color: black;
+	margin: auto;
+}
+.gif{
+width: 50%;margin: auto;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.triangle-gif{
+	
+	height: 80vh;
+	background-image: url(../../images/triangle.gif);
+	width: 90%;margin: auto;
+	background-size: contain;background-repeat: no-repeat;
+
+
+}
+
+
+.about{
+	width: 100%;
+	height:70vh;background: white;display: flex;justify-content: center;align-items: center;
+
+}
+.in-about{
+	width: 100%;height:auto;background-color:white;display: flex;flex-direction: column;
+	
+}
+.in-about .heading1{
+	display: flex;justify-content: center;
+}
+.in-about .heading1 h1{font-weight: 100;
+	color: red;background-color:white;text-transform: uppercase;font-size: 60px;font-family: 'Brygada';text-align: center;
+}
+
+.in-about .heading1 h2{font-weight: 100;
+	color: black;text-transform: uppercase;font-size: 60px;font-family: 'Brygada';
+}
+
+.heading2{
+
+}
+
+.in-about .heading2 h1{
+	text-align: center;font-family: 'Rock Salt',sans-serif;font-size: 35px;position: relative;left: 50px;top: -30px;
+}
+.in-about .heading3{
+	width: 60%;
+	margin: auto;
+}
+.in-about .heading3 h1{text-align: center;font-family: 'Brygada',sans-serif;font-weight: 100;word-spacing: 5px;line-height: 20px;
+	font-size: 16px;
+}
+
+
+
+.trees{
+	height: 60vh;
+	width: 100%;
+	background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.founder{
+	width: 100%;
+	height:70vh;background: white;display: flex;justify-content: center;align-items: center;
+
+}
+
+
+.in-founder{
+	width: 100%;height:auto;background-color:white;display: flex;flex-direction: row;grid-gap: 50px;
+	
+}
+
+
+.left{
+	width: 50%;
+}
+
+
+.founder-image{
+	width: 70%;margin: auto;
+	height: 50vh;
+	background-image: url(https://snobmonkey.com/wp-content/uploads/2019/04/PNGPIX-COM-Bill-Gates-PNG-Transparent-Image-1.png);
+	background-size: contain;background-repeat: no-repeat;
+}
+.right{
+	width: 90%;
+}
+.in-founder .heading{
+	display: flex;justify-content: center;
+}
+.in-founder .heading h1{font-weight: 100;
+	color: red;background-color:white;text-transform: uppercase;font-size: 60px;font-family: 'Brygada';text-align: center;
+}
+
+.in-founder .heading h2{font-weight: 100;
+	color: black;text-transform: uppercase;font-size: 60px;font-family: 'Brygada';
+}
+
+.heading2{
+
+}
+
+.in-founder .heading2 h1{
+	text-align: center;font-family: 'Rock Salt',sans-serif;font-size: 35px;position: relative;left: 50px;top: -30px;
+}
+.in-founder .heading3{
+	width: 60%;
+	margin: auto;
+}
+.in-founder .heading3 h1{text-align: center;font-family: 'Brygada',sans-serif;font-weight: 100;word-spacing: 5px;line-height: 20px;
+	font-size: 16px;
+}
+
+
+
+
+
+.footer{
+	height: 30vh;
+	width: 100%;
+	background-color: black;
+	
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 425px){
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&family=Poppins:wght@100&display=swap');
+
+
+.triangle{
+height: 70vh;width: 100%;
+	
+}
+.gif{
+width: 100%;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.triangle-gif{
+	
+	height: 80vh;
+	background-image: url(../../images/triangle.gif);
+	width: 100%;margin: auto;
+	background-size: contain;background-repeat: no-repeat;
+
+
+}
+
+
+.about{
+	width: 100%;
+	height:70vh;background: white;display: flex;justify-content: center;align-items: center;
+
+}
+.in-about{
+	width: 100%;height:auto;background-color:white;display: flex;flex-direction: column;
+	
+}
+.in-about .heading1{
+	display: flex;justify-content: center;
+}
+.in-about .heading1 h1{font-weight: 100;
+	color: red;background-color:white;text-transform: uppercase;font-size: 40px;font-family: 'Brygada';text-align: center;
+}
+
+.in-about .heading1 h2{font-weight: 100;
+	color: black;text-transform: uppercase;font-size: 40px;font-family: 'Brygada';
+}
+
+.heading2{
+
+}
+
+.in-about .heading2 h1{
+	text-align: center;font-family: 'Rock Salt',sans-serif;font-size:20px;position: relative;left: 0px;top: -20px;margin-left: 80px;
+}
+.in-about .heading3{
+	width: 90%;
+}
+.in-about .heading3 h1{text-align: center;font-family: 'Brygada',sans-serif;font-weight: 100;word-spacing: 5px;line-height: 15px;
+	font-size: 10px;width: 80%;margin: auto;
+}
+
+
+
+.trees{
+	height: 80vh;
+	width: 100%;
+	background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.founder{
+	width: 100%;
+	height:70vh;background: white;display: flex;justify-content: center;align-items: center;
+
+}
+
+
+.in-founder{
+	width: 100%;height:auto;background-color:white;display: flex;flex-direction: column;grid-gap: 0px;
+	
+}
+
+
+.left{
+	width: 100%;
+}
+
+
+.founder-image{
+	width: 50%;margin: auto;
+	height: 50vh;
+	background-image: url(https://snobmonkey.com/wp-content/uploads/2019/04/PNGPIX-COM-Bill-Gates-PNG-Transparent-Image-1.png);
+	background-size: contain;background-repeat: no-repeat;
+}
+.right{
+	width: 80%;margin: auto;
+}
+.in-founder .heading{
+	display: flex;justify-content: center;
+}
+.in-founder .heading h1{font-weight: 100;
+	color: red;background-color:white;text-transform: uppercase;font-size: 40px;font-family: 'Brygada';text-align: center;
+}
+
+.in-founder .heading h2{font-weight: 100;
+	color: black;text-transform: uppercase;font-size: 40px;font-family: 'Brygada';
+}
+
+.heading2{
+
+}
+
+.in-founder .heading2 h1{
+	text-align: center;font-family: 'Rock Salt',sans-serif;font-size: 18px;position: relative;left: 30px;top: -20px;
+}
+.in-founder .heading3{margin-bottom: 40px;
+	width:100%;
+}
+.in-founder .heading3 h1{text-align: center;font-family: 'Brygada',sans-serif;font-weight: 100;word-spacing: 5px;line-height: 14px;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+}

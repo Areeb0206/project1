@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&display=swap');
+
+.navbar{
+	width: 100%;position: relative;background-color: black;
+	height: auto;padding: 30px;
+}
+
+.innavbar{position: relative;
+	display: grid;grid-template-columns: 50% 50%;
+	
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.headings{
+	display: flex;flex-direction: row-reverse;grid-gap: 50px;font-size:17px;text-transform: uppercase;
+}
+.link, .contact{
+	color: white;
+}
+
+.contact{
+	border: 1px solid white;padding: 8px;
+}
+.link{
+	padding: 8px;
+}
+
+
+
+@media(max-width: 425px){
+
+
+
+
+.navbar{outline: none;border: none;
+	width: 100%;position: relative;background-color: black;
+	height: auto;padding: 7px;
+}
+
+.innavbar{position: relative;
+	display: grid;grid-template-columns: 50% 50%;
+	
+}
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.headings{
+	display: flex;flex-direction: row-reverse;grid-gap: 3px;font-size:6px;text-transform: uppercase;font-family: 'Brygada',sans-serif;
+}
+.link, .contact{
+	color: white;
+}
+
+.contact{
+	border: 1px solid white;
+}
+.link{
+	padding: 8px;
+}
+
+
+
+}
