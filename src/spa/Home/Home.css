@@ -69,14 +69,28 @@ width: 50%;margin: auto;
 
 
 
-.trees{
-	height: 60vh;
+
+
+
+
+
+
+
+
+
+
+.trees{background-color: black;
+	height: 80vh;
 	width: 100%;
-	background-color: skyblue;
+
 }
 
 
+.in-trees{	height: 90vh;
+	width: 70%;margin: auto;
+	background-image: url(../../images/gif2.gif);background-repeat: no-repeat;
 
+}
 
 
 
@@ -234,11 +248,22 @@ width: 100%;
 
 
 
-.trees{
-	height: 80vh;
+
+
+
+.trees{background-color: black;
+	height: 70vh;
 	width: 100%;
-	background-color: skyblue;
+
 }
+
+
+.in-trees{	height: 60vh;
+	width: 100%;margin: auto;
+	background-image: url(../../images/gif2.gif);background-repeat: no-repeat;background-size: contain;background-position: center;
+
+}
+
 
 
 
